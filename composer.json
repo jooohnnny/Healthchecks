@@ -1,5 +1,5 @@
 {
-    "name": "johnny/healthchecks",
+    "name": "jooohnnny/healthchecks",
     "description": "business monitor",
     "autoload": {
         "psr-4": {
