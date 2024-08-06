@@ -12,7 +12,7 @@ class HealthchecksProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(Manager::class, function ($app) {
+        $this->app->singleton(Healthchecks::class, function ($app) {
             return new Manager($app);
         });
 
