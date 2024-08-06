@@ -14,7 +14,7 @@ composer require jooohnnny/healthchecks
 
 ### 使用命令复制需要的配置文件
 ```shell
-php artisan vendor:publish --provider="Johnny\Healthchecks\HealthchecksProvider"
+php artisan vendor:publish --provider="Jooohnnny\Healthchecks\HealthchecksProvider"
 ```
 
 ## 使用
