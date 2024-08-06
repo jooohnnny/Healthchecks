@@ -9,7 +9,7 @@
 
 ### 安装需要的 composer 包
 ```shell
-composer require johnny/healthchecks
+composer require jooohnnny/healthchecks
 ```
 
 ### 使用命令复制需要的配置文件
