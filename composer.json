@@ -1,0 +1,24 @@
+{
+    "name": "johnny/healthchecks",
+    "description": "business monitor",
+    "autoload": {
+        "psr-4": {
+            "Johnny\\Healthchecks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "johnny"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.61"
+    },
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
