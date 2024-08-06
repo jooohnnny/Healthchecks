@@ -49,7 +49,7 @@ class Healthchecks
         }
 
         try {
-            $response = $this->client->request('GET', sprintf('%s/%s', $this->baseUrl, $module['uuid']));
+            $response = $this->client->request('GET', sprintf('%s/%s', trim($this->baseUrl, '/'), $module['uuid']));
             return $response->getStatusCode() == 200;
         } catch (\Exception $e) {
             throw new \RuntimeException(sprintf('healthcheck ping catch %s %s %s %s', $e->getFile(), $e->getLine(), $e->getCode(), $e->getMessage()));
