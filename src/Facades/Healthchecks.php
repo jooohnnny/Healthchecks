@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Johnny\Healthchecks\Facades;
+namespace Jooohnnny\Healthchecks\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

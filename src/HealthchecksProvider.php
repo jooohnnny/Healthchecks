@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Johnny\Healthchecks;
+namespace Jooohnnny\Healthchecks;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -3,7 +3,7 @@
     "description": "business monitor",
     "autoload": {
         "psr-4": {
-            "Johnny\\Healthchecks\\": "src/"
+            "Jooohnnny\\Healthchecks\\": "src/"
         }
     },
     "authors": [
